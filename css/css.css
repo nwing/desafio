@@ -26,7 +26,7 @@ h2{ text-align: center; padding: 0; margin: 20px 0 0; }
 .sticky { display: none;  }
 .fixed { position: fixed; display: block;  top:0; left:0; width: 100%; height: 20px; z-index: 100; }
 .fixed #listRow { list-style: none; width: 700px; margin: 0 auto; height: 45px; background: #4D4D4D; padding: 0; }
-.fixed #listRow li{ display: inline-block; padding-left: 50px; line-height: 40px; }
+.fixed #listRow li{ display: inline-block; padding-left: 50px; line-height: 40px; color: #fff; }
 /* ------ Modal ------ */
 #modal-background { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: white; opacity: .50; -webkit-opacity: .5; -moz-opacity: .5; filter: alpha(opacity=50); z-index: 99; }
 #modal-content { background-color: white; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; box-shadow: 0 0 20px 0 #222; -webkit-box-shadow: 0 0 20px 0 #222; -moz-box-shadow: 0 0 20px 0 #222; display: none; height: 360px; left: 50%; margin: -220px 0 0 -160px; padding: 10px; position: absolute; top: 50%; width: 380px; z-index: 99; }
